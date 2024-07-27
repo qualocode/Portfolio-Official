@@ -33,3 +33,23 @@ for (let i = 0; i < navBtns.length; i++) {
     navBtns[i].classList.add("active");
   });
 }
+
+// ---------------------------------------------
+// ------------- Projects Redirect -------------
+// ---------------------------------------------
+
+let proj_1 = document.getElementById("project_1");
+let proj_2 = document.getElementById("project_2");
+let proj_3 = document.getElementById("project_3");
+let proj_4 = document.getElementById("project_4");
+
+function redirectProjects(elm, url) {
+  elm.addEventListener("click", function () {
+    window.open(url, "_blank");
+  });
+}
+
+redirectProjects(proj_1, "https://frontendproj1.netlify.app/");
+redirectProjects(proj_2, "https://frontendproj2.netlify.app/");
+redirectProjects(proj_3, "https://frontendproj03.netlify.app/");
+redirectProjects(proj_4, "https://frontendproj4.netlify.app/");
