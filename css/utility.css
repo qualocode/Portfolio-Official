@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /*------ Gradients -----*/
+  --bg-gradient-1: linear-gradient(
+    to bottom right,
+    rgb(63, 63, 64) 3%,
+    rgb(48, 48, 48) 97%
+  );
+  --bg-gradient-2: linear-gradient(
+      to bottom right,
+      rgba(45, 45, 46, 0.251) 0%,
+      rgba(27, 27, 29, 0) 100%
+    ),
+    rgb(32, 32, 34);
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right,
+    rgb(255, 218, 107) 0%,
+    rgba(255, 192, 97, 0) 50%
+  );
+  --bg-gradient-yellow-2: linear-gradient(
+      135deg,
+      rgba(255, 218, 107, 0.251) 0%,
+      rgba(255, 187, 92, 0) 59.86%
+    ),
+    rgb(32, 32, 34);
+  --border-gradient-1: linear-gradient(
+    to bottom right,
+    rgb(64, 64, 64) 0%,
+    rgba(64, 64, 64, 0) 50%
+  );
+  --text-gradient-yellow: linear-gradient(
+    to right,
+    rgb(255, 219, 112),
+    rgb(255, 187, 92)
+  );
+
+  /*---- Solid Colors ----*/
+  --color-1: rgb(56, 56, 56);
+  --color-2: rgb(43, 43, 44);
+  --black-1: rgb(32, 32, 34);
+  --black-2: rgb(30, 30, 31);
+  --smoky-black: rgb(18, 18, 18);
+  --white-1: rgb(255, 255, 255);
+  --white-2: rgb(250, 250, 250);
+  --orange-yellow: rgb(255, 219, 112);
+  --gold: rgb(206, 177, 90);
+  --light-gray: rgb(214, 214, 214);
+  --light-gray-7: rgba(214, 214, 214, 0.7);
+  --bittersweet-shimmer: rgb(184, 76, 76);
+
+  /*---- Font Family -----*/
+  --ff-poppins: "Poppins", sans-serif;
+
+  /*------- Shadow -------*/
+  --shadow-1: -4px 8px 24px rgba(0, 0, 0, 0.25);
+  --shadow-2: 0 16px 30px rgba(0, 0, 0, 0.25);
+  --shadow-3: 0 16px 40px rgba(0, 0, 0, 0.25);
+  --shadow-4: 0 25px 50px rgba(0, 0, 0, 0.15);
+  --shadow-5: 0 24px 80px rgba(0, 0, 0, 0.25);
+}
+
+/*=======================================*/
+/*============== Scrollbar ==============*/
+/*=======================================*/
+
+body::-webkit-scrollbar {
+  width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--smoky-black);
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 5px solid var(--smoky-black);
+  background: hsla(0, 0%, 100%, 0.1);
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+    inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: hsla(0, 0%, 100%, 0.15);
+}
+
+body::-webkit-scrollbar-button {
+  height: 60px;
+}

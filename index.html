@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+    ########## Custom CSS ##########
+    -->
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/media_queries.css" />
+
+    <title>M Umair Malik - Portfolio</title>
+  </head>
+  <body>
+    <!-- 
+    ############## M A I N ##############
+    -->
+    <main id="main">
+      <!-- 
+        ########### A S I D E ###########
+        -->
+      <aside id="aside">
+        <div class="upperPart">
+          <figure>
+            <img src="/assets/my_avatar.png" alt="M Umair Malik" />
+          </figure>
+          <div class="profileDesc">
+            <h2>M Umair Malik</h2>
+            <p>Frontend Developer</p>
+            <p style="margin-top: 10px">Web Designer</p>
+          </div>
+
+          <button class="showHide" id="moreInfoBtn">
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="lowerPart active">
+          <hr />
+
+          <ul class="myInfo">
+            <li>
+              <div class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="info">
+                <p>EMAIL</p>
+                <a href="#" style="white-space: nowrap; text-overflow: ellipsis"
+                  >mumairmalikofficial@gmail.com</a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <div class="info">
+                <p>PHONE</p>
+                <a href="#">+92 3297897297</a>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="info">
+                <p>BIRTHDAY</p>
+                <a href="#">Nov 10, 2004</a>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="info">
+                <p>LOCATION</p>
+                <a href="#">Sargodha, Punjab, Pakistan</a>
+              </div>
+            </li>
+          </ul>
+
+          <hr />
+
+          <ul class="socialLinks">
+            <li>
+              <a href="#linkedin">
+                <ion-icon name="logo-linkedin"> </ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#github"> <ion-icon name="logo-github"> </ion-icon></a>
+            </li>
+            <li>
+              <a href="#instagram">
+                <ion-icon name="logo-instagram"> </ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- 
+        ########### P A G E S ###########
+      -->
+      <div class="mainContent">
+        <!--========= Navbar =========-->
+        <nav id="navbar">
+          <ul>
+            <li><button class="active">About</button></li>
+            <li><button>Contact</button></li>
+            <li><button>Projects</button></li>
+          </ul>
+        </nav>
+
+        <!--======= About Article =======-->
+
+        <article class="about active">
+          <h1 class="artTitle">About Me</h1>
+
+          <section class="aboutDesc">
+            <p class="firstPara">
+              I am a passionate and dedicated
+              <span>Full Stack Web Developer</span>. My journey in the tech
+              world is fueled by a deep enthusiasm for modern technologies and a
+              constant drive to enhance my skills.
+            </p>
+            <br />
+            <p>
+              I am actively seeking internships and freelance opportunities to
+              gain real project experience and contribute to exciting web
+              development projects with my skills & expertise and continue to
+              grow in the ever-evolving world of web development. I look forward
+              to working with your team.
+            </p>
+
+            <h3>What I Offer ?</h3>
+            <ul>
+              <li class="listItems">
+                <p>
+                  <span>Frontend Expertise:</span>
+                  I am proficient in HTML5, CSS3, JavaScript, Bootstrap, and the
+                  GSAP animation library. I specialize in creating visually
+                  appealing and highly functional web interfaces.
+                </p>
+              </li>
+
+              <li class="listItems">
+                <p>
+                  <span>Backend Development:</span> I am currently mastering the
+                  MERN stack (MongoDB, Express.js, React.js, Node.js) to provide
+                  comprehensive backend solutions.
+                </p>
+              </li>
+
+              <li class="listItems">
+                <p>
+                  <span>Programming Knowledge:</span> I have a solid foundation
+                  in Java (OOP principles) and C language, which adds to my
+                  versatility as a developer.
+                </p>
+              </li>
+
+              <li class="listItems">
+                <p>
+                  <span>Version Control:</span> I am well-versed in Git and
+                  GitHub, ensuring efficient collaboration and code management.
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="cardsSec">
+            <div class="cardsContainer">
+              <div class="cards">
+                <div class="cardIcon">
+                  <img src="/assets/web_dev_icon.svg" style="margin-top: 4px" />
+                </div>
+                <div class="cardDesc">
+                  <h3>Web Development</h3>
+                  <p>
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </div>
+
+              <div class="cards">
+                <div class="cardIcon">
+                  <img src="/assets/web_design_icon.svg" />
+                </div>
+                <div class="cardDesc">
+                  <h3>Web Designh</h3>
+                  <p>
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h3>My Skills</h3>
+            <div class="skillsContainer">
+              <div class="skills">
+                <img src="/assets/js.svg" />
+                <img src="/assets/html.svg" />
+                <img src="/assets/css.svg" />
+                <img src="/assets/bootstrap.svg" style="width: 48px" />
+                <img src="/assets/gsap.svg" />
+                <img src="/assets/github.svg" />
+                <img src="/assets/vscode.svg" />
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--======= Contact Article ======-->
+
+        <article class="contact">
+          <h1 class="artTitle">Contact Us</h1>
+
+          <div class="googleMap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14304781.080205154!2d64.59153617872444!3d28.91682033471344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1721759855989!5m2!1sen!2s"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              id="map"
+            ></iframe>
+          </div>
+
+          <form>
+            <div class="fieldsBox">
+              <div class="fields">
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+              </div>
+              <div class="fields">
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+              </div>
+            </div>
+
+            <div class="msgBox">
+              <label for="msg">Message</label>
+              <textarea id="msg" rows="10"></textarea>
+            </div>
+
+            <input type="submit" class="submitBtn" value="Send" />
+          </form>
+        </article>
+
+        <!--====== Projects Article ======-->
+
+        <article class="projects">
+          <h1 class="artTitle">Projects</h1>
+
+          <section class="projSec">
+            <div class="projCards">
+              <div class="imgFrame">
+                <img src="/assets/projects/project_1.png" alt="project 1" />
+              </div>
+              <h3>Unique Interior Design Concepts Website</h3>
+            </div>
+
+            <div class="projCards">
+              <div class="imgFrame">
+                <img src="/assets/projects/project_2.png" alt="project 2" />
+              </div>
+              <h3>Wildlife And Nature Website</h3>
+            </div>
+
+            <div class="projCards">
+              <div class="imgFrame">
+                <img src="/assets/projects/project_3.png" alt="project 3" />
+              </div>
+              <h3>Whale Watching Center Website</h3>
+            </div>
+
+            <div class="projCards">
+              <div class="imgFrame">
+                <img src="/assets/projects/project_4.png" alt="project 4" />
+              </div>
+              <h3>Portfolio Design</h3>
+            </div>
+          </section>
+
+          <div class="copyright">
+            <p style="font-size: 14px">
+              Projects are code by M Umair Malik <span>(Qualo)</span>
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <!-- 
+      ###### ionicons (cdn links) #######
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- 
+      ######## GSAP (cdn links) #########
+    -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- ScrollTrigger (Plugin) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--
+      ########### Custom JS ###########
+     -->
+    <script src="/js/app.js"></script>
+    <script src="/js/animate.js"></script>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+@media (max-width: 1140px) {
+  /* ----------
+    # MAIN
+  ---------- */
+
+  #main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* -----------
+    # ASIDE
+  ------------ */
+
+  #aside {
+    width: 100%;
+    position: static;
+    padding: 1.8rem 1.8rem 0;
+  }
+
+  /*------- Upper Part -------*/
+
+  #aside .upperPart {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  #aside .upperPart figure {
+    width: 140px;
+    height: 140px;
+  }
+
+  #aside .upperPart .profileDesc {
+    margin-top: 0;
+  }
+
+  #aside .upperPart .profileDesc p {
+    margin: 0;
+  }
+
+  .showHide {
+    display: block;
+  }
+
+  /*------- Lower Part -------*/
+
+  #aside .lowerPart.active {
+    display: none;
+  }
+
+  #aside .lowerPart {
+    margin-bottom: 1.4rem;
+  }
+
+  #aside .lowerPart hr:nth-of-type(2) {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  #aside .lowerPart .myInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  #aside .lowerPart .myInfo li {
+    width: 45%;
+    margin: 1rem 0;
+  }
+
+  /* ----------
+    # PAGES
+  ----------- */
+
+  .mainContent {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* ----------
+    # PAGES
+  ----------- */
+
+  /* ----------
+    # NAVBAR
+  ----------- */
+
+  .mainContent #navbar {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    padding: 1rem 1.6rem;
+    padding-left: 2rem;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 20px;
+    z-index: 10;
+    background-color: var(--black-1);
+    border: 1px solid var(--color-1);
+  }
+}
+
+@media (max-width: 1024px) {
+  /* ----------
+    # PAGES
+  ----------- */
+
+  #main .mainContent {
+    margin-bottom: 2rem;
+  }
+
+  /* ----------
+    # NAVBAR
+  ----------- */
+
+  .mainContent #navbar {
+    width: 100%;
+    padding: 1rem 1.6rem;
+    background-color: var(--black-1);
+    border: 1px solid var(--color-1);
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  /* ---------
+    # About
+  ---------- */
+
+  .cardsSec .cardsContainer {
+    flex-direction: column;
+  }
+
+  .cardsSec .cardsContainer .cards {
+    width: 100%;
+  }
+}
+
+@media (max-width: 840px) {
+  /* ----------
+    # PAGES
+  ----------- */
+
+  /* -----------
+    # CONTACT
+  ------------ */
+
+  .contact form .fieldsBox {
+    flex-direction: column;
+  }
+
+  .contact form .fields {
+    width: 100%;
+  }
+
+  /* ------------
+    # PROJECTS
+  ------------- */
+
+  #main .projSec {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  /* -----------
+    # ASIDE
+  ------------ */
+
+  #aside {
+    padding: 1.8rem 1rem 0;
+  }
+
+  /*------- Upper Part -------*/
+
+  #aside .upperPart {
+    gap: 20px;
+  }
+
+  #aside .upperPart figure {
+    width: 100px;
+    height: 100px;
+  }
+
+  #aside .upperPart .profileDesc h2 {
+    font-size: 1.2rem;
+  }
+
+  #aside .upperPart .profileDesc p {
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  .showHide {
+    right: -1rem;
+  }
+
+  .showHide span {
+    display: none;
+  }
+
+  .showHide ion-icon {
+    display: block;
+  }
+
+  /*------- Lower Part -------*/
+
+  #aside .lowerPart .myInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+  }
+
+  #aside .lowerPart .myInfo li {
+    width: 100%;
+  }
+
+  /* ----------
+    # PAGES
+  ----------- */
+
+  /* ------------
+    # ARTICLES
+  ------------- */
+
+  .mainContent article .artTitle {
+    font-size: 1.4rem;
+  }
+
+  /* ---------
+    # About
+  ---------- */
+
+  .cardsSec .cardsContainer .cards {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .cardsSec .cardsContainer .cards .cardIcon img {
+    width: 50px;
+  }
+}
